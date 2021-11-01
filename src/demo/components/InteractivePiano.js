@@ -77,7 +77,7 @@ export default function InteractivePiano() {
     <PianoContainer>
       <Piano
         startNote={'C4'}
-        endNote={'B5'}
+        endNote={'C6'}
         renderPianoKey={PianoKey}
         keyboardMap={{
           Q: 'C4',
@@ -92,18 +92,19 @@ export default function InteractivePiano() {
           Y: 'A4',
           7: 'A#4',
           U: 'B4',
-          V: 'C5',
-          G: 'C#5',
-          B: 'D5',
-          H: 'D#5',
-          N: 'E5',
-          M: 'F5',
-          K: 'F#5',
-          ',': 'G5',
-          L: 'G#5',
-          '.': 'A5',
-          ';': 'A#5',
-          '/': 'B5',
+          Z: 'C5',
+          S: 'C#5',
+          X: 'D5',
+          D: 'D#5',
+          C: 'E5',
+          V: 'F5',
+          G: 'F#5',
+          B: 'G5',
+          H: 'G#5',
+          N: 'A5',
+          J: 'A#5',
+          M: 'B5',
+          ',': 'C6',
         }}
       />
     </PianoContainer>
